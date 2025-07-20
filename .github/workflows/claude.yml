@@ -24,7 +24,7 @@ jobs:
     
     steps:
       - name: Claude Code Assistant
-        uses: anthropics/claude-code-action@v1
+        uses: anthropics/claude-code-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
