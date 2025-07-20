@@ -1,0 +1,60 @@
+{
+  "model_loading": {
+    "model_name": "tiiuae/Falcon3-3B-Base-1.58bit",
+    "device": "cuda",
+    "model_size_gb": 1.5,
+    "memory_before_mb": 538.0,
+    "memory_after_mb": 752.75,
+    "memory_increase_mb": 214.75
+  },
+  "basic_inference": {
+    "prompt": "The future of artificial intelligence is",
+    "response": "The future of artificial intelligence is exciting, and it\u2019s important to look at the potential benefits and risks involved. By understanding the potential of AI and its implications, we can make informed decisions about its use and potential impact.\nAI has the potential to revolutionize many industries, from",
+    "inference_time_seconds": 18.841,
+    "input_tokens": 6,
+    "output_tokens": 56
+  },
+  "performance": {
+    "inference_times_seconds": [
+      28.464,
+      28.148,
+      29.172,
+      31.685,
+      30.294
+    ],
+    "average_inference_time_seconds": 29.553,
+    "tokens_per_second": 3.38,
+    "memory_before_inference_mb": 1032.578125,
+    "memory_after_inference_mb": 1027.0390625,
+    "memory_delta_mb": -5.5390625,
+    "gpu_memory_before_mb": 2121.97,
+    "gpu_memory_after_mb": 2121.97,
+    "gpu_memory_delta_mb": 0.0,
+    "gpu_total_memory_mb": 6143.69
+  },
+  "configurations": [
+    {
+      "configuration": "bfloat16",
+      "load_time_seconds": 5.18,
+      "inference_time_seconds": 8.907,
+      "model_size_gb": 1.5,
+      "status": "success"
+    },
+    {
+      "configuration": "float16",
+      "load_time_seconds": 2.78,
+      "inference_time_seconds": 8.789,
+      "model_size_gb": 1.5,
+      "status": "success"
+    }
+  ],
+  "system_info": {
+    "device": "cuda",
+    "python_version": "3.12.0",
+    "pytorch_version": "2.7.1+cu118",
+    "cuda_available": true,
+    "total_ram_gb": 15.6,
+    "gpu_name": "NVIDIA GeForce RTX 2060",
+    "gpu_memory_gb": 6.0
+  }
+}
