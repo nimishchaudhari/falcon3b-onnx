@@ -1,0 +1,40 @@
+# Core ML Libraries
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# ONNX and Quantization
+onnx>=1.14.0
+onnxruntime>=1.15.0
+onnxruntime-gpu>=1.15.0
+
+# HuggingFace and Transformers
+transformers>=4.30.0
+tokenizers>=0.13.0
+datasets>=2.12.0
+accelerate>=0.20.0
+
+# Falcon Model Dependencies
+einops>=0.6.0
+safetensors>=0.3.0
+
+# BitNet and Quantization Tools
+# onebitllms - install from source or pip when available
+# bitnet-cpp - install manually from GitHub
+
+# Utilities
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+jupyter>=1.0.0
+notebook>=6.5.0
+
+# Development Tools
+pytest>=7.3.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.3.0
+
+# Optional GPU Support
+# Install CUDA toolkit separately if using GPU acceleration
